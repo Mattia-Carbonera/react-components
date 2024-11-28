@@ -1,5 +1,11 @@
-import { useState } from "react";
+import style from "./nav.module.css";
 
-function Navbar() {}
+function Navbar() {
+  return (
+    <header>
+      <h1>Il mio blog</h1>
+    </header>
+  );
+}
 
 export default Navbar;
