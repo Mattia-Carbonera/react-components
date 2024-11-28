@@ -1,4 +1,5 @@
 import style from "./main.module.css";
+import Button from "../button/button";
 import defaultImage from "../../assets/img/card-image.png";
 
 function Main() {
@@ -17,7 +18,7 @@ function Main() {
             molestias, est facere veritatis veniam!
           </p>
           <div className="button">
-            <button>prova</button>
+            <Button />
           </div>
         </div>
       </div>
